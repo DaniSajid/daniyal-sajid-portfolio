@@ -12,7 +12,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-    metadataBase: new URL("https://your-portfolio-url.com"), // Replace with your actual domain
+    metadataBase: new URL("https://daniyalsajid.netlify.app"), // Replace with your actual domain
     title: "Daniyal Sajid | Full Stack Developer Portfolio",
     description: "Explore the portfolio of Daniyal Sajid, a Full Stack Developer specializing in MERN Stack, showcasing dynamic and scalable web applications with a focus on performance, scalability, and user experience.",
     keywords: "Daniyal Sajid, Full Stack Developer, MERN Stack, Web Developer, JavaScript, React.js, Node.js, MongoDB, Express.js, Portfolio",
@@ -20,7 +20,7 @@ export const metadata = {
     openGraph: {
         title: "Daniyal Sajid | Full Stack Developer Portfolio",
         description: "Discover the professional portfolio of Daniyal Sajid, highlighting expertise in MERN Stack development and full-stack web applications.",
-        url: "https://your-portfolio-url.com",
+        url: "https://daniyalsajid.netlify.app",
         type: "website",
         images: [
             {
