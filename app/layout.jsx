@@ -18,7 +18,7 @@ export const metadata = {
     keywords: "Daniyal Sajid, Full Stack Developer, MERN Stack, Web Developer, JavaScript, React.js, Node.js, MongoDB, Express.js, Portfolio",
     author: "Daniyal Sajid",
     openGraph: {
-        title: "Daniyal Sajid | Full Stack Developer Portfolio",
+        title: "Daniyal Sajid | Full Stack Developer",
         description: "Discover the professional portfolio of Daniyal Sajid, highlighting expertise in MERN Stack development and full-stack web applications.",
         url: "https://daniyalsajid.netlify.app",
         type: "website",
