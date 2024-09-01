@@ -24,7 +24,7 @@ export const metadata = {
         type: "website",
         images: [
             {
-                url: "/about/daniyalsajid.jpg", // Use relative path
+                url: "https://daniyalsajid.netlify.app/_next/image?url=%2Fhero%2Fdaniyalsajid.jpg&w=1920&q=75",
                 width: 1200,
                 height: 630,
                 alt: "Daniyal Sajid Portfolio",
