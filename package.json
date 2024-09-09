@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.3",
@@ -21,6 +22,7 @@
     "framer-motion": "^10.18.0",
     "lucide-react": "^0.303.0",
     "next": "14.0.4",
+    "next-sitemap": "^4.2.3",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-countup": "^6.5.0",
