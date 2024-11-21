@@ -11,21 +11,21 @@ import {
 const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Web Design",
+    title: "Data Analytics and Reporting",
     description:
-      "Crafting visually appealing, responsive, and user-friendly interfaces is my specialty. I use the latest technologies, including HTML, CSS, JavaScript, React.js, and Bootstrap, to create intuitive user experiences that work seamlessly across all devices.",
+      "Leverage the power of data with my expertise in tools like SQL Server, MySQL, MongoDB, Power BI, and Excel. I specialize in creating detailed reports and dashboards to provide actionable insights that drive decision-making.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: "Web Application Development",
+    title: "Data Science and Automation",
     description:
-      "As a MERN Stack Developer, I offer end-to-end web development services. From front-end interfaces to back-end logic and database management, I provide complete solutions that are both efficient and scalable.",
+      "Unlock the potential of your data with advanced techniques in Python and Jupyter Notebook. From predictive analytics to process automation, I deliver solutions that optimize operations and uncover hidden opportunities.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "Consultation and Project Planning",
+    title: "Web Scraping",
     description:
-      "I offer consulting services to help you plan and execute your web development projects. Whether you need guidance on the best technology stack, project architecture, or optimization strategies, I provide expert advice to help you succeed.",
+      "Extract valuable data from websites efficiently with my web scraping services. Leveraging technologies like Python and BeautifulSoup, I automate data collection processes to save time and enhance productivity, delivering structured data tailored to your needs.",
   },
 ];
 

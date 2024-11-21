@@ -118,7 +118,6 @@ const skillData = [
       {
         imgPath: "/about/git.png",
       },
-     
     ],
   },
 ];
@@ -145,11 +144,12 @@ export default function TabComponent() {
         <TabsContent value="personal">
           <div className="text-center xl:text-left">
             <h3 className="h3 mb-4">
-              Unmatched Service Quality for Over 2 Years
+            Data Scientist | Analyst | Web Scraping Expert
             </h3>
             <p className="subtitle max-w-xl mx-auto xl:mx-0">
-              I specialize in crafting innovative websites with cutting-edge
-              technology, delivering dynamic and engaging user experiences.
+              A versatile Data Scientist and Analyst skilled in databases, data
+              visualization, programming, and web scraping to deliver impactful
+              insights and solutions.
             </p>
             {/* icons */}
             <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -272,10 +272,12 @@ export default function TabComponent() {
             </div>
             {/* tools */}
             <div className="">
-              <h3 className="text-xl font-semibold mb-2 xl:text-left">Tools & Programing Language</h3>
+              <h3 className="text-xl font-semibold mb-2 xl:text-left">
+                Tools & Programing Language
+              </h3>
               <div className="border-b border-border mb-4"></div>
               {/* tool list */}
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  lg:grid-cols-5 gap-8 justify-center xl:justify-start">
+              {/* <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  lg:grid-cols-5 gap-8 justify-center xl:justify-start">
                 {getData(skillData, "tools").data.map((item, index) => {
                   return (
                     <div key={index} className="flex jsutify-center w-full">
@@ -285,12 +287,12 @@ export default function TabComponent() {
                         height={90}
                         alt=""
                         priority
-                        className="object-contain" 
+                        className="object-contain"
                       />
                     </div>
                   );
                 })}
-              </div>
+              </div> */}
             </div>
           </div>
         </TabsContent>

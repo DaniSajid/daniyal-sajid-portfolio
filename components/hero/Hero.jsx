@@ -33,11 +33,15 @@ const Hero = () => {
           {/* text */}
           <div className=" flex max-w-[700px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold  mb-4 text-primary tracking-[4px]">
-              Full Stack Developer
+              Data Analyst
             </div>
             <Name />
             <p className="subtitle  max-w-[490px] mx-auto my-8 xl:mx-0">
-            I’m a passionate Full Stack Developer with a strong focus on building dynamic, scalable, and efficient web applications. With expertise in the MERN stack, I deliver seamless user experiences and robust backend solutions, transforming ideas into innovative digital products.
+              I am Daniyal Sajid, a versatile Data Analyst and Scientist skilled
+              in tools like SQL Server, MySQL, MongoDB, Power BI, Python,
+              Jupyter Notebook, and Excel. My expertise also extends to web
+              scraping, enabling me to extract valuable data from various
+              sources to empower informed decision-making.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -73,7 +77,7 @@ const Hero = () => {
           <div className="xl:flex relative">
             <DevImg
               containerStyles={
-                "w-[400px] h-[330px] bg-no-repeat relative bg-bottom mx-auto"
+                "w-[390px] h-[320px] bg-no-repeat relative bg-bottom mx-auto"
               }
               imgSrc={"/hero/daniyalsajid.jpg"}
             />

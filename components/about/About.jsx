@@ -1,4 +1,5 @@
 import DevImg from "../DevImg";
+import Image from "next/image"
 import TabComponent from "./TabComponent";
 
 const About = () => {
@@ -11,12 +12,15 @@ const About = () => {
                 <div className="flex flex-col xl:flex-row">
                     {/* image */}
                     <div className="hidden xl:flex flex-1 relative">
-                        <DevImg
+                        {/* <DevImg
                             containerStyles={
-                                "w-[505px] h-[505px] bg-no-repeat relative rounded-sm"
+                                "w-[500px] h-[420px] bg-no-repeat relative rounded-sm"
                             }
                             imgSrc={"/about/daniyalsajid.jpg"}
-                        />
+                        /> */}
+                        <div className="w-[500px] h-[420px] bg-no-repeat relative rounded-sm">
+      <Image src="/about/daniyalsajid.jpg" className="rounded-[54%_50%_50%_50%_/_56%_36%_64%_44%]" fill priority alt="dev image" />
+    </div>
                     </div>
                     {/* tabs */}
                     <div className="flex-1">
