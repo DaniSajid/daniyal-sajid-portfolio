@@ -45,8 +45,8 @@ const qualificationData = [
     data: [
       {
         company: "Self Employed",
-        role: "Front end developer",
-        years: "2023 - 2024",
+        role: "Data Analyst",
+        years: "2024 - 2025",
       },
     ],
   },
@@ -57,25 +57,22 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "Front-End Development",
+        titleDescription: "Database Management",
       },
       {
-        name: "Proficient in HTML, CSS, JavaScript, Bootstrap, Material UI, React.js and Next.js. Expertise in creating responsive, interactive, and user-friendly web interfaces.",
+        name: "Proficient in MongoDB, SQL Server, and MySQL. Skilled in designing and managing databases to ensure data integrity, security, and performance.",
       },
-      { name: <br /> },
-      { name: "Back-End Development" },
+      { titleDescription: "Programming and Data Analysis" },
       {
-        name: "Skilled in Node.js and Express.js, with experience in building RESTful APIs and server-side logic to support dynamic web applications.",
+        name: "Experienced in Python and Jupyter Notebook for data analysis, visualization, and developing data-driven solutions.Proficient in analyzing large datasets, identifying trends, and delivering insights to support decision-making processes.",
       },
-      { name: <br /> },
-      { name: "Database Management" },
+      { titleDescription: "Data Visualization" },
       {
-        name: "Experienced with SQL Server and MongoDB, capable of designing and managing databases to ensure data integrity, security, and performance.",
+        name: "Skilled in Power BI and Excel for creating interactive dashboards, reports, and presenting actionable insights.",
       },
-      { name: <br /> },
-      { name: "Version Control" },
+      { titleDescription: "Web Scraping" },
       {
-        name: "Proficient with Git and GitHub for collaborative development, maintaining clean codebases, and managing project versions effectively.",
+        name: "Experienced in extracting and processing data from websites using Python for efficient data collection and analysis.",
       },
     ],
   },
@@ -83,44 +80,12 @@ const skillData = [
     title: "tools",
     data: [
       {
-        imgPath: "/about/vs.png",
-      },
-      {
-        imgPath: "/about/html.png",
-      },
-      {
-        imgPath: "/about/css.png",
-      },
-      {
-        imgPath: "/about/bootstrap.png",
-      },
-      {
-        imgPath: "/about/mui.png",
-      },
-      {
-        imgPath: "/about/js.png",
-      },
-      {
-        imgPath: "/about/react.png",
-      },
-      {
-        imgPath: "/about/node.png",
-      },
-      {
-        imgPath: "/about/ex.png",
-      },
-      {
-        imgPath: "/about/mongodb.png",
-      },
-      {
-        imgPath: "/about/sql.png",
-      },
-      {
-        imgPath: "/about/git.png",
+        name: "MongoDB, SQL Server, MySQL, Python, Jupyter Notebook, Power BI, Excel",
       },
     ],
   },
 ];
+
 
 export default function TabComponent() {
   const getData = (arr, title) => {
@@ -139,12 +104,12 @@ export default function TabComponent() {
           Qualifications
         </TabsTrigger>
       </TabsList>
-      <div className="text-lg mt-12 xl:mt-8">
+      <div className="text-lg  mt-12 xl:mt-8">
         {/* personal */}
         <TabsContent value="personal">
           <div className="text-center xl:text-left">
             <h3 className="h3 mb-4">
-            Data Scientist | Analyst | Web Scraping Expert
+              Data Scientist | Analyst | Web Scraping Expert
             </h3>
             <p className="subtitle max-w-xl mx-auto xl:mx-0">
               A versatile Data Scientist and Analyst skilled in databases, data
@@ -254,45 +219,22 @@ export default function TabComponent() {
           <div className="text-center xl:text-left">
             <h3 className="h3 mb-8">What I Use Everyday</h3>
             <div className="mb-16">
-              <h4 className="text-xl font-semibold mb-2">Skills</h4>
+              <h1 className="text-xl font-semibold mb-2">Skills</h1>
               <div className="border-b border-border mb-4"></div>
               {/* skill list */}
-              <div className="">
+              <div className="flex flex-wrap items-stretch">
                 {getData(skillData, "skills").data.map((item, index) => {
                   return (
                     <div
                       key={index}
-                      className="w-2/4 text-center xl:text-left mx-auto xl:mx-0 "
+                      className="w-100 h-auto text-center xl:text-left mx-auto xl:mx-0 mb-2"
                     >
+                      <h1 className="text-2xl font-semibold  xl:text-left">{item.titleDescription}</h1>
                       <div className="font-medium">{item.name}</div>
                     </div>
                   );
                 })}
               </div>
-            </div>
-            {/* tools */}
-            <div className="">
-              <h3 className="text-xl font-semibold mb-2 xl:text-left">
-                Tools & Programing Language
-              </h3>
-              <div className="border-b border-border mb-4"></div>
-              {/* tool list */}
-              {/* <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  lg:grid-cols-5 gap-8 justify-center xl:justify-start">
-                {getData(skillData, "tools").data.map((item, index) => {
-                  return (
-                    <div key={index} className="flex jsutify-center w-full">
-                      <Image
-                        src={item.imgPath}
-                        width={90}
-                        height={90}
-                        alt=""
-                        priority
-                        className="object-contain"
-                      />
-                    </div>
-                  );
-                })}
-              </div> */}
             </div>
           </div>
         </TabsContent>
