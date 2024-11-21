@@ -2,6 +2,6 @@ const experiences = [
     {
         company: "Self Employed",
         role: "Data Scientist",
-        years: "2023 - 2024",
+        years: "2024 - 2025",
     },
 ];
