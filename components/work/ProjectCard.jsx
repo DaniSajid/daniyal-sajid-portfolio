@@ -13,8 +13,8 @@ const ProjectCard = ({ project }) => {
           <Image
             className="absolute bottom-0 shadow-2xl"
             src={project.image}
-            width={247}
-            height={250}
+            width={245}
+            height={180}
             alt=""
             priority
           />
@@ -41,10 +41,7 @@ const ProjectCard = ({ project }) => {
         <div className="w-full flex flex-wrap gap-x-1">
           {project.category.split(",").map((cat, index) => {
             return (
-              <Badge
-                key={index}
-                className="uppercase text-sm font-normal mb-2"
-              >
+              <Badge key={index} className="uppercase text-sm font-normal mb-2">
                 {cat}
               </Badge>
             );

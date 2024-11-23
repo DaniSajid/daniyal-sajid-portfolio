@@ -50,10 +50,6 @@ const Hero = () => {
                   Contact me <Send size={18} />{" "}
                 </Button>
               </Link>
-              {/* <Button variant="secondary" className="gap-x-2">
-                                Download CV
-                                <Download size={18} />{" "}
-                            </Button> */}
               <Button
                 variant="secondary"
                 className="relative inline-flex overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"

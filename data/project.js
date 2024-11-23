@@ -26,6 +26,16 @@ const projectData = [
         link: "https://daniyal84.netlify.app/",
         github: "https://github.com/DaniSajid/E-project",
     },
+    {
+        image: "/work/4.png", 
+        tags: "Power BI Excel",
+        category: "Data Science",
+        name: "Power BI Sales Dashboard",
+        description: "An interactive Power BI dashboard showcasing insights into sales data, including metrics like Sales, Profit, Discounts, and more. Designed for intuitive and actionable data exploration.",
+        link: "https://daniyalsajid.netlify.app/", 
+        github: "https://github.com/DaniSajid/power-bi",
+    },
+    
 ];
 
 export default projectData;
