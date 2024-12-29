@@ -1,5 +1,23 @@
 const projectData = [
     {
+        image: "/work/4.png", 
+        tags: "Power BI Excel",
+        category: "Data Science",
+        name: "Power BI Sales Dashboard",
+        description: "An interactive Power BI dashboard showcasing insights into sales data, including metrics like Sales, Profit, Discounts, and more. Designed for intuitive and actionable data exploration.",
+        link: "https://daniyalsajid.netlify.app/", 
+        github: "https://github.com/DaniSajid/power-bi",
+    },
+    {
+        "image": "/work/5.png", 
+        "tags": "Power BI Excel Python Jupyter Lab",
+        "category": "Data Science",
+        "name": "Power BI Education Analytics Dashboard",
+        "description": "An interactive Power BI dashboard providing insights into student data including metrics like Grades, Absences, Predicted Dropouts, and more. Designed for actionable and intuitive educational analytics.",
+        "link": "https://daniyalsajid.netlify.app/", 
+        "github": "https://github.com/DaniSajid/daniyal-dataEproject"
+    },
+    {
         image: "/work/1.png",
         tags: "HTML5,CSS3,JS,Bootstrap,ReactJs",
         category: "React",
@@ -26,24 +44,6 @@ const projectData = [
         link: "https://daniyal84.netlify.app/",
         github: "https://github.com/DaniSajid/E-project",
     },
-    {
-        image: "/work/4.png", 
-        tags: "Power BI Excel",
-        category: "Data Science",
-        name: "Power BI Sales Dashboard",
-        description: "An interactive Power BI dashboard showcasing insights into sales data, including metrics like Sales, Profit, Discounts, and more. Designed for intuitive and actionable data exploration.",
-        link: "https://daniyalsajid.netlify.app/", 
-        github: "https://github.com/DaniSajid/power-bi",
-    },
-    {
-        "image": "/work/5.png", 
-        "tags": "Power BI Excel Python Jupyter Lab",
-        "category": "Data Science",
-        "name": "Power BI Education Analytics Dashboard",
-        "description": "An interactive Power BI dashboard providing insights into student data, including metrics like Grades, Absences, Predicted Dropouts, and more. Designed for actionable and intuitive educational analytics.",
-        "link": "https://daniyalsajid.netlify.app/", 
-        "github": "https://github.com/DaniSajid/daniyal-dataEproject"
-    }
     
     
 ];

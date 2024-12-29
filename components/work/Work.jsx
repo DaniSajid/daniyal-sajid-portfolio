@@ -103,7 +103,7 @@ const CarousalSwiper = () => {
       pagination={{ clickable: true }}
     >
       {/* Show only the first 4 projects */}
-      {projectData.slice(0, 4).map((project, index) => {
+      {projectData.slice(0, 5).map((project, index) => {
         return (
           <SwiperSlide key={index}>
             <ProjectCard project={project} />
