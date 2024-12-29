@@ -13,7 +13,7 @@ const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
     metadataBase: new URL("https://daniyalsajid.netlify.app"), // Replace with your actual domain
-    title: "Daniyal Sajid | Full Stack Developer Portfolio",
+    title: "Daniyal Sajid | Data & Insights Analyst Portfolio",
     description: "Explore Daniyal Sajid's portfolio, a Full Stack Developer specializing in MERN Stack Development focused on performance, scalability, and user experience.",
     keywords: "Daniyal Sajid, Full Stack Developer, MERN Stack, Web Developer, JavaScript, React.js, Node.js, MongoDB, Express.js, Portfolio",
     author: "Daniyal Sajid",
