@@ -38,7 +38,7 @@ const Hero = () => {
             <Name />
             <p className="subtitle  max-w-[490px] mx-auto my-8 xl:mx-0">
               I am Daniyal Sajid, a versatile Data Analyst and Scientist skilled
-              in tools like SQL Server, MySQL, MongoDB, Power BI, Python,
+              in tools like SQL Server, MySQL,PostgreSql, MongoDB, Power BI, Python,
               Jupyter Notebook, and Excel. My expertise also extends to web
               scraping, enabling me to extract valuable data from various
               sources to empower informed decision-making.
